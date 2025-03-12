@@ -56,11 +56,9 @@ int main() {
     Product product1(1, "Laptop", 1000, 10, "Elektronik");
     product1.displayInfo();
 
-    // Menggunakan diskon persentase
     double discounted_price1 = product1.applyPercentageDiscount(15);
     cout << "Harga setelah diskon 15%: " << discounted_price1 << endl;
 
-    // Menggunakan diskon tetap
     double discounted_price2 = product1.applyFixedDiscount(200);
     cout << "Harga setelah diskon tetap 200: " << discounted_price2 << endl;
 
